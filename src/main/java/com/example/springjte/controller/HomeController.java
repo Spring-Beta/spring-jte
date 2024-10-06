@@ -15,7 +15,7 @@ public class HomeController {
         var homePage = new HomePage("Hello World", "This is my home page!");
         var items = List.of("Item 1", "Item 2", "Item 3");
 
-        model.addAttribute("name", "Alif");
+        model.addAttribute("name", "My broken world!");
         model.addAttribute("items", items);
         model.addAttribute("page", homePage);
 
